@@ -3,10 +3,10 @@
 int main() {
     int i = 1;
    
-    while (i <= 5) {
+    do {
         printf("%d\n", i);
-        // O valor de 'i' nunca é incrementado
-    }
+        i++;
+    } while (i <= 5);
    
     return 0;
 }
